@@ -7,3 +7,4 @@ cmd/server
 go run .
 cmd/client
 go run .
+
