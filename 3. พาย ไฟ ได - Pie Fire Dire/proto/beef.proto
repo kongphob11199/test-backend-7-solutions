@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package pb;
+option go_package = "./pd";
+
+service BeefService {
+    rpc FindBeef(FindBeefRequest) returns(FindBeefResponse);
+}
+
+message FindBeefRequest { }
+
+message FindBeefResponse {
+    map<string, uint32> beef = 1;
+}

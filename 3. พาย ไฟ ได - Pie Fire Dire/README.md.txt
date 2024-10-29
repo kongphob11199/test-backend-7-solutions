@@ -1,0 +1,1 @@
+make run-client && make run-server
